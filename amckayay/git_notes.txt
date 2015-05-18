@@ -1,0 +1,3 @@
+git add - add file to staging area 
+git commit - commit added files to staging area, must include message
+

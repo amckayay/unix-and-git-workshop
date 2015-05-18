@@ -1,0 +1,57 @@
+# Commands
+cd - change directory
+ls - list files 
+nano - edit file
+cat - read file
+pwd - print working directory
+~ - shorthand for home directory
+mv - move file or rename file
+cp - copy file, leave original intact
+rm - remove file, can't undo
+mkdir - make directory 
+whoami - displays user
+sudo - command as super user, lets you as a normal user run 1 command as super user, with password
+chmod - change permissions. sytnax: chmod u/g/o+r/w/x file.txt
+chown - change owner
+sudo !! - run previous command as super user
+top - activity monitor
+ps - program to list processes
+ps aux - list all processes on machine 
+ps aux | grep - search to find specific process
+job - see active jobs
+ctrl + z - stop or pause job
+ctrl + c - exit job
+kill PID - force quit process
+kill -TERM PID - harder force quit
+kill -KILL PID - harder harder force quit
+find - locate file by filename 
+grep - find a pattern inside a file
+command < inputfile.txt - change input
+command > outputfile.txt - change output 
+command1 | command2 - pipe the output of command1 to the input of command2
+curl - program for making requests to the internet, installing software
+
+# Permissions
+reading, writing and executing file permissions are set on 3 levels: user, group and other
+rwx permissions are set with octal notation, count 1-7 and start over at 10, 10-17, 20-27
+read: 4
+write: 2
+execute: 1
+add numbers together for each group to set permissions numerically
+777 gives full permissions to all groups.
+
+# Processes
+A process is an instance of a running program. Can run multiple instances of one program. 
+Job: a process started from your console
+pause process - can restart later
+quit or kill process - end permanently
+
+# Environments
+Environment variables store standard configuration information
+
+# Pipes and Redirection
+standard in: keyboard
+standard out: console
+* both can be changed, can take the output of one process and make it the input of another process
+
+UNIX: lots of simple programs and commands that can be piped together to do powerful things
